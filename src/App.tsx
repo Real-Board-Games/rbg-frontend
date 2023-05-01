@@ -1,23 +1,9 @@
-import Button from './Button';
+import ButtonPage from './pages/ButtonPage';
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Button primary>Rounded</Button>
-      </div>
-      <div>
-        <Button>asdf</Button>
-      </div>
-      <div>
-        <Button>Click me!</Button>
-      </div>
-      <div>
-        <Button>Click me!</Button>
-      </div>
-      <div>
-        <Button>Click me!</Button>
-      </div>
+    <div>
+      <ButtonPage />
     </div>
   );
 }
