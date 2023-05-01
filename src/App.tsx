@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Button from './Button';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Real Board Games
-        </a>
-      </header>
+      <div>
+        <Button primary>Rounded</Button>
+      </div>
+      <div>
+        <Button><span></span> <span></span></Button>
+      </div>
+      <div>
+        <Button>Click me!</Button>
+      </div>
+      <div>
+        <Button>Click me!</Button>
+      </div>
+      <div>
+        <Button>Click me!</Button>
+      </div>
     </div>
   );
 }
