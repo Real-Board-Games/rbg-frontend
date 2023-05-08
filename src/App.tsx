@@ -10,10 +10,12 @@ function App() {
   const [gameEvents, setGameEvents] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/game-events').then((response) => {
-      console.log(response.data);
-      setGameEvents(response.data);
-    });
+    axios
+      .get(`${import.meta.env.VITE_APP_API_URL}/game-events `)
+      .then((response) => {
+        console.log(response.data);
+        setGameEvents(response.data);
+      });
   }, []);
 
   function formatDate(dateString: string): string {
