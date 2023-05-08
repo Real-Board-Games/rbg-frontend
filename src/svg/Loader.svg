@@ -41,55 +41,55 @@
 
     @keyframes a2_t {
       0% {
-        transform: translate(49.03px, 49.03px) scale(0, 0);
+        transform: translate(45px, 45px) scale(0, 0);
       }
 
       8.333% {
-        transform: translate(49.03px, 49.03px) scale(0, 0);
+        transform: translate(45px, 45px) scale(0, 0);
         animation-timing-function: cubic-bezier(0, 0, .58, 1);
       }
 
       33.333% {
-        transform: translate(49.03px, 49.03px) scale(1, 1);
+        transform: translate(45px, 45px) scale(1, 1);
       }
 
       66.667% {
-        transform: translate(49.03px, 49.03px) scale(1, 1);
+        transform: translate(45px, 45px) scale(1, 1);
       }
 
       91.667% {
-        transform: translate(49.03px, 49.03px) scale(0, 0);
+        transform: translate(45px, 45px) scale(0, 0);
       }
 
       100% {
-        transform: translate(49.03px, 49.03px) scale(0, 0);
+        transform: translate(45px, 45px) scale(0, 0);
       }
     }
 
     @keyframes a3_t {
       0% {
-        transform: translate(152.12px, 49.03px) scale(0, 0);
+        transform: translate(152.12px, 45px) scale(0, 0);
       }
 
       16.667% {
-        transform: translate(152.12px, 49.03px) scale(0, 0);
+        transform: translate(152.12px, 45px) scale(0, 0);
         animation-timing-function: cubic-bezier(0, 0, .58, 1);
       }
 
       41.667% {
-        transform: translate(152.12px, 49.03px) scale(1, 1);
+        transform: translate(152.12px, 45px) scale(1, 1);
       }
 
       58.333% {
-        transform: translate(152.12px, 49.03px) scale(1, 1);
+        transform: translate(152.12px, 45px) scale(1, 1);
       }
 
       83.333% {
-        transform: translate(152.12px, 49.03px) scale(0, 0);
+        transform: translate(152.12px, 45px) scale(0, 0);
       }
 
       100% {
-        transform: translate(152.12px, 49.03px) scale(0, 0);
+        transform: translate(152.12px, 45px) scale(0, 0);
       }
     }
 
@@ -133,14 +133,12 @@
   </style>
   <g transform="translate(120,114.5) rotate(-180) scale(.8,.8) translate(-100.58,-92.62)"
     style="animation: 1.5s linear infinite both a0_t;">
-    <ellipse rx="49.03" ry="49.03" fill="#12a742" transform="translate(100.09,136.21) scale(0,0)"
+    <ellipse rx="45" ry="45" fill="#3f6449" transform="translate(100.09,136.21) scale(0,0)"
       style="animation: 1.5s linear infinite both a1_t;" />
-    <ellipse rx="49.03" ry="49.03" fill="#d62319" transform="translate(49.03,49.03) scale(0,0)"
+    <ellipse rx="45" ry="45" fill="#ad413e" transform="translate(45,45) scale(0,0)"
       style="animation: 1.5s linear infinite both a2_t;" />
-    <ellipse rx="49.03" ry="49.03" fill="#0069bf" transform="translate(152.12,49.03) scale(0,0)"
+    <ellipse rx="45" ry="45" fill="#305077" transform="translate(152.12,45) scale(0,0)"
       style="animation: 1.5s linear infinite both a3_t;" />
   </g>
-  <ellipse rx="98" ry="98" fill="none" stroke="#fff" stroke-width="6" stroke-dasharray="615.42 615.42"
-    stroke-dashoffset="615.42" transform="translate(120,102.5) rotate(-90)"
-    style="animation: 1.5s linear infinite both a4_t, 1.5s linear infinite both a4_do;" />
+ 
 </svg>
