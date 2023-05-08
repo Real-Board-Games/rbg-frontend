@@ -1,7 +1,11 @@
 import { useEffect, useState, useRef } from 'react';
-import { Option } from '../App';
 import { GoChevronDown } from 'react-icons/go';
 import { Panel } from './Panel';
+
+export type Option = {
+  label: string;
+  value: string;
+};
 
 type DropdownProps = {
   value: Option | null;
